@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #D3D3D3; /* Light Gray background */
+    color: #333;
+}
+
+header, section, footer {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #228B22; /* Forest Green for headings */
+}
+
+.logo-placeholder {
+    font-weight: bold;
+    color: #228B22;
+    margin-top: 10px;
+}
+
+/* Wireframe styles */
+.wireframe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.wireframe div {
+    border: 1px dashed #999;
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.mobile .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop .content {
+    display: flex;
+}
+
+.desktop .left-sidebar {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.desktop .main {
+    width: 75%;
+}
