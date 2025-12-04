@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gran Sabana Album</title>
+    <meta name="description" content="A collection of sacred temples from around the world.">
+    <meta name="author" content="Adrian Jemmotte">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- CSS Links (Mobile-first) -->
+    <link rel="stylesheet" href="styles/attractions.css">
+    <link rel="stylesheet" href="styles/attractions-large.css">
+    <!-- Deferred JavaScript -->
+    <script src="scripts/attractions.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Gran Sabana Album</h1>
+        <nav id="nav-menu">
+            <button id="hamburger-btn" aria-label="Toggle navigation menu">☰</button>
+            <ul id="nav-list">
+                <li><a href="attractions.html">Home</a></li>
+                <li><a href="project.html">Trip</a></li>
+                <li><a href="form.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="photos">
+        <h1>Explore Wonderful Places</h1>
+        <div id="temples-container">
+        </div>
+    
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 2025 Adrian Jemmotte | Bolivar State, Venezuela</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="filtered-scripts.js"></script>
+</body>
+</html>

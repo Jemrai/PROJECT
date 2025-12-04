@@ -1,0 +1,144 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff; 
+    color: #2c3e50; 
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a5d23; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#nav-list {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    background-color: #4682b4;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 10;
+}
+
+#nav-list li {
+    margin: 0.5rem 0;
+}
+
+#nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#nav-list a:hover {
+    color: #ffd700; 
+}
+#hamburger-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#temples-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+    padding: 1rem;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.temple-card img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #4682b4;
+}
+
+main.photos {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 1rem;
+
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #4a5d23;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planifica tu Visita - Gran Sabana</title>
+    <link rel="stylesheet" href="styles/project.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="attractions.html">Home</a></li>
+                <li><a href="project.html">Trip</a></li>
+                <li><a href="form.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <h1>PLAN YOUR TRIP</h1>
+    </header>
+    <main>
+        <section>
+            <img src="images/salto.webp" alt="Salto Ángel, la cascada más alta del mundo" loading="lazy">
+            <p>Enjoy this trip with us make your reservation:</p>
+        </section>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="email">Phone Number:</label>
+            <input type="email" id="email" required>
+            <label for="message">Additional information (Expectactions, number of people, number of days for trip, etc):</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-response"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Adrian Jemmotte | Bolivar State, Venezuela <a href="references.html">References</a></p>
+    </footer>
+    <script src="scripts/project.js"></script>
+</body>
+</html>
